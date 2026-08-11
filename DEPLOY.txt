@@ -1,7 +1,0 @@
-Cloudflare Workers build settings
-
-Build command (same 3-file structure as before):
-rm -rf dist && mkdir dist && cp index.html app.js icon-180.png dist/
-
-Deploy command:
-npx wrangler deploy --assets ./dist --compatibility-date 2026-08-11
