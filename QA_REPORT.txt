@@ -1,0 +1,26 @@
+Hiraganada ver3.3 QA REPORT
+
+Environment
+- Chromium headless browser
+- iPhone-like viewport: 390 x 844
+
+PASS: welcome screen render, runtime errors 0
+PASS: home screen render, runtime errors 0
+PASS: defense screen render, runtime errors 0
+PASS: surprise quiz render, runtime errors 0
+PASS: time attack render, runtime errors 0
+PASS: boss wave render, runtime errors 0
+PASS: stroke guide render, runtime errors 0
+PASS: actual welcome -> profile -> home -> defense flow
+PASS: defense correct answer click
+PASS: bullet / hit / explosion flow
+PASS: surprise quiz answer click
+PASS: time attack answer click
+PASS: boss wave answer click
+PASS: UFO descent collision reduces hearts 3 -> 2
+PASS: all tested game screens scrollHeight 844 == viewport height 844
+PASS: Japanese ta-row mapping retained: た=타, ち=치, つ=츠, て=테, と=토
+
+Root cause fixed
+- ver3.2 lost `var G` and `startGame()` during UI refactor.
+- This caused game launch to fail even though welcome/home screens rendered.
