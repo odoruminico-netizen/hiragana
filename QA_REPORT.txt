@@ -1,6 +1,0 @@
-Hiraganada ver2.2 QA
-PASS - Defense mode uses new reference-style layout
-PASS - One falling hiragana question only
-PASS - Answer buttons remain 3/4/5 by stage
-PASS - Bullet and explosion effects still active
-PASS - JavaScript syntax check passed
