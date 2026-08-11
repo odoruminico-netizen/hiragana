@@ -1,0 +1,23 @@
+Hiraganada ver3.0 - Runtime QA
+Test viewport: 390 x 844 (iPhone-class mobile viewport)
+
+PASS - JavaScript syntax check (node --check)
+PASS - Application boots in QA home mode with no Runtime.exceptionThrown
+PASS - Main game screen renders with no Runtime.exceptionThrown
+PASS - One hiragana target is displayed at a time
+PASS - Stage answer counts: Stage1=3, Stage2=4, Stage3+=5
+PASS - た/ち/つ/て/と mapping = 타/치/츠/테/토
+PASS - No Korean readings '티' or '트' in item data
+PASS - Correct answer button click executed in browser runtime
+PASS - Projectile animation path created from astronaut to target
+PASS - Correct-hit explosion/HIT feedback rendered
+PASS - 3-miss stroke-guide modal renders
+
+QA screenshots:
+QA/home-actual.png
+QA/game-actual.png
+QA/game-hit.png
+QA/guide-actual.png
+
+Known note:
+The stroke guide fetches strokesvg SVG data when network access is available. If the network request fails, the app safely falls back to showing the large character instead of crashing.

@@ -1,0 +1,12 @@
+Hiraganada ver3.0 - Full Rebuild
+- 2.x codebase discarded and rebuilt from scratch
+- Reference-style premium space battle UI for the main game
+- Exactly one falling hiragana problem at a time
+- Answer choices progress 3 -> 4 -> 5 by stage
+- Actual projectile animation from astronaut to target UFO
+- Hit explosion and HIT score feedback
+- 3 consecutive misses trigger a stroke-order guide
+- Surprise quiz, Type Attack, Boss Wave retained
+- 50 generative chiptune track variations and game SFX
+- Stage 1 mapping fixed: た/ち/つ/て/と = 타/치/츠/테/토
+- iPhone-oriented safe-area and large answer controls
