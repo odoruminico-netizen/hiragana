@@ -1,0 +1,4 @@
+Stroke-order data is loaded at runtime from zhengkyl/strokesvg.
+Repository: https://github.com/zhengkyl/strokesvg
+The project states: SVG kana files are derived from Klee One under SIL Open Font License 1.1; other project files are MIT licensed.
+See the upstream LICENSE for full terms.

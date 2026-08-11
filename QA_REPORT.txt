@@ -1,0 +1,17 @@
+Hiraganada 2.0 QA
+- JavaScript syntax: PASS (node --check)
+- HTML parse: PASS
+- Startup smoke test: PASS
+- たちつてと mapping (타/치/츠/테/토): PASS
+- No 티/트 readings in dataset: PASS
+- Stage 1 initial pool = あいうえお only: PASS
+- Stage 2 initial pool = がぎぐげご only: PASS
+- Stage 1 excludes わ/を/ん: PASS
+- Stage 3 excludes っ/ん words: PASS
+- Stage 4 requires っ or ん: PASS
+- 50 track names/signatures unique: PASS
+- Age range logic 8-13: PASS
+
+Stroke-order behavior:
+- Uses zhengkyl/strokesvg animated SVG at runtime and caches successfully fetched SVG in localStorage.
+- If the network is unavailable before a character is cached, a fallback glyph is shown instead of crashing.

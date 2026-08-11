@@ -1,0 +1,11 @@
+Hiraganada ver2.0
+- Target age tuned to 8-13 with automatic difficulty by age.
+- Verified basic row: た・ち・つ・て・と = 타・치・츠・테・토.
+- Replaced gameplay emoji art with inline pixel-style SVG astronaut/UFO/boss sprites.
+- Added normal waves, combo, rare UFO bonus, surprise quiz interrupts, TYPE ATTACK, and boss wave.
+- Added real stroke-order loading/animation via strokesvg SVG data after 3 consecutive mistakes.
+- Added 50 fixed original chiptune compositions, each with distinct A/B lead phrases, bass, tempo/rhythm settings.
+- BGM starts after the first user gesture; gameplay top center exposes only track change.
+- Reworked learning pools, mastery weighting, confidence mismatch, and spaced review priority.
+- Added app icons 180/512 and manifest.
+- Stage 5 remains a teaser for Hiraganada - Word Edition.
