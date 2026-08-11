@@ -1,6 +1,0 @@
-{
-  "name":"hiragana-darabasasa",
-  "private":true,
-  "version":"1.0.0",
-  "scripts":{"dev":"python3 -m http.server 4173","build":"echo Static PWA - no build required"}
-}
