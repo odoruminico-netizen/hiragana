@@ -1,7 +1,0 @@
-Hiraganada ver0.2.1
-
-HOTFIX
-- Embedded the full application JavaScript directly inside index.html.
-- Removed runtime dependency on loading external app.js.
-- Added a visible boot-error screen instead of an endless preparing/loading screen.
-- Preserved ver0.2 learning logic, 50 synthesized retro BGM tracks, sound effects, BGM controls, progress storage, and footer credit.
